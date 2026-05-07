@@ -4,30 +4,70 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const links = [
-  { href: "/", label: "Home" },
-  { href: "/research", label: "Research" },
-  { href: "/projects", label: "Projects" },
-  { href: "/teaching", label: "Teaching & Design" },
-  { href: "/notes", label: "Notes" },
-  { href: "/cv", label: "CV" },
-  { href: "/contact", label: "Contact" },
+  { href: "/", label: "Home", sectionId: "home-hero" },
+  { href: "/research", label: "Research", sectionId: "section-research" },
+  { href: "/projects", label: "Projects", sectionId: "section-projects" },
+  { href: "/teaching", label: "Teaching & Design", sectionId: "section-teaching" },
+  { href: "/notes", label: "Notes", sectionId: null },
+  { href: "/cv", label: "CV", sectionId: null },
+  { href: "/contact", label: "Contact", sectionId: null },
 ];
+
+const sectionToHref: Record<string, string> = {
+  "home-hero": "/",
+  "section-research": "/research",
+  "section-projects": "/projects",
+  "section-teaching": "/teaching",
+};
 
 export function Navbar() {
   const [location] = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState<string>("home-hero");
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Close mobile menu on route change
   useEffect(() => {
     setIsMobileMenuOpen(false);
   }, [location]);
+
+  useEffect(() => {
+    if (location !== "/") {
+      setActiveSection("");
+      return;
+    }
+
+    const sectionIds = ["home-hero", "section-research", "section-projects", "section-teaching"];
+
+    const handleScroll = () => {
+      const scrollY = window.scrollY + 100;
+      let current = sectionIds[0];
+      for (const id of sectionIds) {
+        const el = document.getElementById(id);
+        if (el && el.offsetTop <= scrollY) {
+          current = id;
+        }
+      }
+      setActiveSection(current);
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [location]);
+
+  const isActive = (link: (typeof links)[0]) => {
+    if (location === "/") {
+      const mappedHref = sectionToHref[activeSection] ?? "/";
+      return mappedHref === link.href;
+    }
+    return location === link.href;
+  };
 
   return (
     <header
@@ -40,14 +80,15 @@ export function Navbar() {
           Maryam Babaee
         </Link>
 
-        {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-1">
           {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                location === link.href ? "text-primary" : "text-muted-foreground"
+              className={`text-sm font-medium px-3 py-1.5 rounded-full transition-all duration-200 ${
+                isActive(link)
+                  ? "bg-muted text-foreground font-semibold"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
               }`}
               data-testid={`nav-link-${link.label.toLowerCase()}`}
             >
@@ -56,7 +97,6 @@ export function Navbar() {
           ))}
         </nav>
 
-        {/* Mobile Nav Toggle */}
         <Button
           variant="ghost"
           size="icon"
@@ -68,15 +108,16 @@ export function Navbar() {
         </Button>
       </div>
 
-      {/* Mobile Nav */}
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-border/50 shadow-lg py-4 px-6 flex flex-col gap-4 animate-in slide-in-from-top-2">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-border/50 shadow-lg py-4 px-6 flex flex-col gap-2 animate-in slide-in-from-top-2">
           {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`text-lg font-medium transition-colors hover:text-primary py-2 ${
-                location === link.href ? "text-primary" : "text-muted-foreground"
+              className={`text-base font-medium px-3 py-2 rounded-xl transition-colors ${
+                isActive(link)
+                  ? "bg-muted text-foreground font-semibold"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted/50"
               }`}
             >
               {link.label}

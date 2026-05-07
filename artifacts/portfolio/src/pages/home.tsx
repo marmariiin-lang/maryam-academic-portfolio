@@ -23,7 +23,7 @@ export function Home() {
   return (
     <div className="pb-24">
       {/* Hero Section */}
-      <section className="pt-24 pb-32 overflow-hidden relative">
+      <section id="home-hero" className="pt-24 pb-32 overflow-hidden relative">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/10 via-background to-background"></div>
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16 items-center">
@@ -96,7 +96,7 @@ export function Home() {
       </section>
 
       {/* Recent Work */}
-      <section className="pt-32 pb-16 container mx-auto px-6">
+      <section id="section-research" className="pt-32 pb-16 container mx-auto px-6">
         <div className="flex justify-between items-end mb-12">
           <div>
             <h2 className="text-3xl font-serif mb-4 text-foreground">Recent Research</h2>
@@ -147,7 +147,7 @@ export function Home() {
       </section>
 
       {/* Featured Projects */}
-      <section className="py-20 bg-muted/20">
+      <section id="section-projects" className="py-20 bg-muted/20">
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-end mb-12">
             <div>
@@ -198,8 +198,63 @@ export function Home() {
         </div>
       </section>
 
+      {/* Teaching & Design */}
+      <section id="section-teaching" className="py-24 container mx-auto px-6">
+        <div className="flex justify-between items-end mb-12">
+          <div>
+            <h2 className="text-3xl font-serif mb-4 text-foreground">Teaching & Design</h2>
+            <p className="text-muted-foreground">Designing learning environments where struggle leads to insight.</p>
+          </div>
+          <Link href="/teaching" className="hidden md:flex items-center text-primary font-medium hover:text-primary/80 transition-colors">
+            View All <ArrowRight className="ml-2 h-4 w-4" />
+          </Link>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          {[
+            {
+              tag: "University Teaching",
+              title: "Instructor of Record",
+              desc: "Redesigned Introduction to Educational Technology for 60+ undergraduates, integrating active learning modules and project-based assessments.",
+              detail: "U of Toronto · Fall 2023 & Spring 2024",
+            },
+            {
+              tag: "Curriculum Design",
+              title: "Computational Thinking for K-8 Educators",
+              desc: "Developed an online module sequence for pre-service teachers to embed coding concepts in everyday classroom practice — no screens required.",
+              detail: "Summer 2023",
+            },
+            {
+              tag: "Professional Development",
+              title: "Designing for Productive Failure",
+              desc: "Facilitated a faculty seminar on restructuring assignments to encourage intellectual risk-taking and reward the process of working through difficulty.",
+              detail: "2024 Workshop Series",
+            },
+          ].map((item, i) => (
+            <Link key={i} href="/teaching" className="group block h-full">
+              <div className="bg-card border border-border/50 rounded-xl p-8 h-full shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col">
+                <div className="text-xs font-semibold tracking-wider text-primary mb-4 uppercase">{item.tag}</div>
+                <h3 className="text-xl font-serif text-foreground group-hover:text-primary transition-colors mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-muted-foreground text-sm leading-relaxed flex-1">{item.desc}</p>
+                <div className="mt-6 pt-4 border-t border-border/40 text-xs text-muted-foreground font-medium tracking-wide">
+                  {item.detail}
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+        <div className="mt-8 text-center md:hidden">
+          <Link href="/teaching" className="inline-flex items-center text-primary font-medium">
+            View All Teaching <ArrowRight className="ml-2 h-4 w-4" />
+          </Link>
+        </div>
+      </section>
+
       {/* Publications List */}
-      <section className="py-24 container mx-auto px-6">
+      <section className="py-24 bg-muted/20">
+        <div className="container mx-auto px-6">
         <h2 className="text-3xl font-serif mb-12 text-center text-foreground">Selected Publications</h2>
         <div className="max-w-4xl mx-auto space-y-8">
           {[
@@ -217,6 +272,7 @@ export function Home() {
               <Link href="/cv">View Full CV</Link>
             </Button>
           </div>
+        </div>
         </div>
       </section>
     </div>
