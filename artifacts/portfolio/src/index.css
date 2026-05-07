@@ -51,7 +51,7 @@
 }
 
 :root {
-  --background: 40 33% 98%;
+  --background: 240 20% 99%;
   --foreground: 20 10% 15%;
   --border: 40 15% 90%;
   --card: 0 0% 100%;
@@ -62,7 +62,7 @@
   --popover-foreground: 20 10% 15%;
   --popover-border: 40 15% 90%;
   
-  --primary: 15 45% 50%;
+  --primary: 209 78% 52%;
   --primary-foreground: 0 0% 100%;
   
   --secondary: 200 15% 45%;
@@ -78,21 +78,21 @@
   --destructive-foreground: 0 0% 100%;
   
   --input: 40 15% 90%;
-  --ring: 15 45% 50%;
+  --ring: 209 78% 52%;
   
-  --sidebar: 40 33% 98%;
+  --sidebar: 240 20% 99%;
   --sidebar-foreground: 20 10% 15%;
   --sidebar-border: 40 15% 90%;
-  --sidebar-primary: 15 45% 50%;
+  --sidebar-primary: 209 78% 52%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 15 30% 94%;
-  --sidebar-accent-foreground: 15 45% 40%;
-  --sidebar-ring: 15 45% 50%;
+  --sidebar-accent: 209 78% 95%;
+  --sidebar-accent-foreground: 209 78% 35%;
+  --sidebar-ring: 209 78% 52%;
   
-  --chart-1: 15 45% 50%;
+  --chart-1: 209 78% 52%;
   --chart-2: 200 15% 45%;
   --chart-3: 40 20% 60%;
-  --chart-4: 15 30% 70%;
+  --chart-4: 209 50% 70%;
   --chart-5: 20 10% 30%;
 
   --app-font-sans: 'Inter', sans-serif;
@@ -113,7 +113,7 @@
   --popover-foreground: 40 33% 96%;
   --popover-border: 20 10% 20%;
   
-  --primary: 15 45% 60%;
+  --primary: 209 78% 62%;
   --primary-foreground: 0 0% 100%;
   
   --secondary: 200 15% 55%;
@@ -122,28 +122,28 @@
   --muted: 20 10% 16%;
   --muted-foreground: 40 20% 70%;
   
-  --accent: 15 45% 20%;
-  --accent-foreground: 15 45% 80%;
+  --accent: 209 78% 18%;
+  --accent-foreground: 209 78% 80%;
   
   --destructive: 0 62% 30%;
   --destructive-foreground: 0 0% 100%;
   
   --input: 20 10% 20%;
-  --ring: 15 45% 60%;
+  --ring: 209 78% 62%;
   
   --sidebar: 20 10% 10%;
   --sidebar-foreground: 40 33% 96%;
   --sidebar-border: 20 10% 20%;
-  --sidebar-primary: 15 45% 60%;
+  --sidebar-primary: 209 78% 62%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 15 45% 20%;
-  --sidebar-accent-foreground: 15 45% 80%;
-  --sidebar-ring: 15 45% 60%;
+  --sidebar-accent: 209 78% 18%;
+  --sidebar-accent-foreground: 209 78% 80%;
+  --sidebar-ring: 209 78% 62%;
   
-  --chart-1: 15 45% 60%;
+  --chart-1: 209 78% 62%;
   --chart-2: 200 15% 55%;
   --chart-3: 40 20% 40%;
-  --chart-4: 15 30% 40%;
+  --chart-4: 209 50% 40%;
   --chart-5: 40 33% 80%;
 }
 
