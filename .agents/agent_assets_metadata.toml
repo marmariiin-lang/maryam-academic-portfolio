@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "nkHSrQbAfB9o4eJDtRW9c"
+uri = "file://artifacts/portfolio/public/hero-portrait.png"
+type = "image"
+title = "academic woman portrait"
+
+[[generated]]
+id = "gsxIk8oURR7h1PWI4YP93"
+uri = "file://artifacts/portfolio/public/proj-vr.png"
+type = "image"
+title = "VR immersive learning"
+
+[[generated]]
+id = "8evIXp-tas-dwdWwxz8Th"
+uri = "file://artifacts/portfolio/public/proj-app.png"
+type = "image"
+title = "educational app interface"
+
+[[generated]]
+id = "_y13P-U-hwsapwReOrrJF"
+uri = "file://artifacts/portfolio/public/proj-literacy.png"
+type = "image"
+title = "digital literacy curriculum"
+
+[[generated]]
+id = "RVxyg5lmXdlR8jsrK6Pke"
+uri = "file://artifacts/portfolio/public/proj-museum.png"
+type = "image"
+title = "science museum exhibit"
+
+[[generated]]
+id = "HyjD-FlPJ8bdXGizudaIg"
+uri = "file://artifacts/portfolio/public/proj-ai.png"
+type = "image"
+title = "AI tutor prototype"

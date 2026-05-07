@@ -1,36 +1,40 @@
-# [Project name]
+# Maryam Babaee Portfolio
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A multi-page personal academic portfolio website for Maryam Babaee — PhD researcher in Educational Technology and Learning Experience Designer.
 
 ## Run & Operate
 
+- `pnpm --filter @workspace/portfolio run dev` — run the portfolio (port auto-assigned)
 - `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
 - `pnpm run typecheck` — full typecheck across all packages
 - `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
 
 ## Stack
 
 - pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- Frontend: React 19 + Vite + Wouter (routing) + Framer Motion (animations)
+- UI: Tailwind CSS v4, shadcn/ui components
+- API: Express 5 (shared API server)
+- Fonts: Playfair Display (serif headings) + Inter (sans body) via Google Fonts
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/portfolio/src/pages/` — all 7 page components (home, research, projects, teaching, notes, cv, contact)
+- `artifacts/portfolio/src/components/layout/` — Navbar + Footer
+- `artifacts/portfolio/src/index.css` — theme tokens (warm cream/terracotta palette)
+- `artifacts/portfolio/src/App.tsx` — router setup
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Presentation-first site: all content is hardcoded, no backend API calls needed
+- Framer Motion used throughout for scroll-triggered reveals, staggered entrance, and hover transitions
+- AI-generated portrait and project images embedded as static public assets
+- React Icons replaced with lucide-react (SiLinkedin was incompatible with react-icons v5)
+- Single `artifacts/portfolio` at root previewPath `/` for clean top-level URL
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+Seven-page academic portfolio: Home (hero + research previews + projects + publications), Research (thematic paper sections), Projects (visual grid with generated images), Teaching & Design, Notes (journal/blog), CV (academic layout), Contact (form + links).
 
 ## User preferences
 
@@ -38,8 +42,11 @@ _Populate as you build — explicit user instructions worth remembering across s
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- react-icons v5 removed SiLinkedin — use lucide-react Linkedin instead
+- Google Fonts @import must be the VERY FIRST line of index.css (before @import "tailwindcss")
+- CSS custom properties use space-separated HSL values (no hsl() wrapper) in :root
 
 ## Pointers
 
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- See the `pnpm-workspace` skill for workspace structure and TypeScript setup
+- See the `react-vite` skill for frontend development guidelines

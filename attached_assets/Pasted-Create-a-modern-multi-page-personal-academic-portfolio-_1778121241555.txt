@@ -1,0 +1,123 @@
+Create a modern multi-page personal academic portfolio website for Maryam Babaee, an Educational Technology PhD researcher and learning experience designer with a background in computer software engineering, AI in education, computational thinking, educational technology, and digital learning environments.
+
+The website should balance academia and industry and feel intellectually thoughtful, elegant, interdisciplinary, modern, and human-centered. Avoid startup-company aesthetics and avoid old university-directory styles. The website should feel polished, minimal, warm, and professional with strong typography, smooth navigation, subtle animations, refined spacing, and clean visual hierarchy.
+
+The website should include the following pages in the top navigation:
+
+* Home
+* Research
+* Projects
+* Teaching & Design
+* Notes
+* CV
+* Contact
+
+HOME PAGE:
+The homepage should feel modern and dynamic, not static. Include:
+
+* a professional hero section with portrait photo
+* subtle use of an AI-inspired character illustration as a secondary visual accent
+* a short identity statement
+* buttons for CV, LinkedIn, Google Scholar, and GitHub
+* preview sections for newest work, featured projects, recent notes/blog posts, and selected publications
+* smooth scrolling sections on the homepage with clickable cards leading to separate pages
+
+The homepage should communicate a strong interdisciplinary identity combining:
+
+* AI and creativity
+* computational thinking
+* educational technology
+* learning experience design
+* instructional design
+* digital learning environments
+
+RESEARCH PAGE:
+Organize research into elegant thematic sections such as:
+
+* AI & Creativity
+* Computational Thinking
+* Technology-Enhanced Learning
+* Productive Failure
+* Learning Analytics & Assessment
+
+Use modern cards, concise summaries, conference highlights, and selected publications.
+
+PROJECTS PAGE:
+Create a visually rich projects page with project cards including images, hover effects, and concise descriptions.
+
+Include placeholders for projects such as:
+
+* immersive learning experiences
+* educational apps
+* digital literacy curriculum
+* Productive Failure learning designs
+* educational websites
+* interactive media projects
+* UX/design prototypes
+* collaborative graduate projects
+
+Each project card should include:
+
+* project image
+* title
+* short summary
+* tools used
+* role/contribution
+
+TEACHING & DESIGN PAGE:
+Highlight:
+
+* curriculum development
+* workshops
+* online learning design
+* story-based pedagogy
+* teacher training
+* multimedia educational design
+* digital literacy initiatives
+
+NOTES PAGE:
+Create a clean intellectual blog/journal page called “Notes.”
+
+This page should feel reflective, thoughtful, and interdisciplinary. It should support future blog posts about:
+
+* AI and education
+* creativity
+* books and speculative fiction
+* conferences
+* design reflections
+* learning experiences
+* technology and society
+* research ideas
+* inspirations and mentors integrated naturally into posts
+
+The Notes page should feel elegant and personal without feeling like a diary.
+
+CV PAGE:
+Include:
+
+* downloadable PDF CV
+* clean academic-style layout
+* optional future support for shorter industry resume
+
+CONTACT PAGE:
+Simple elegant contact page with:
+
+* email
+* LinkedIn
+* Google Scholar
+* GitHub
+* short collaboration statement
+
+VISUAL STYLE:
+
+* minimalist modern academic-tech aesthetic
+* elegant serif and sans-serif typography pairing
+* subtle smooth animations
+* responsive mobile-first design
+* soft neutral color palette
+* sophisticated whitespace
+* polished hover effects
+* modern project cards
+* refined visual hierarchy
+
+The website should feel suitable for both academic careers and industry opportunities in educational technology, AI, learning experience design, and digital innovation.
