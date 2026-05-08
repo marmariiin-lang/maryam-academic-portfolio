@@ -154,7 +154,7 @@ export function Home() {
             >
               <div className="absolute inset-0 bg-primary/10 rounded-2xl rotate-3 transform origin-bottom-left transition-transform hover:rotate-6 duration-500" />
               <img
-                src="/hero-portrait.png"
+                src="/maryam.jpg"
                 alt="Maryam Babaee"
                 className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-xl grayscale-[20%] sepia-[10%] hover:grayscale-0 transition-all duration-500"
               />
