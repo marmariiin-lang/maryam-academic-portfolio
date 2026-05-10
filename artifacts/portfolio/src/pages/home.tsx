@@ -23,10 +23,21 @@ const fadeUp = {
 };
 
 const researchInterests = [
-  "AI & Education",
+  "Generative AI in Education",
+  "AI & Hardware",
+  "Engineering Education",
+  "CS Education",
+  "Large Language Models",
+  "Educational Data Mining",
+  "Human-Centered AI",
+  "Feedback in Online Learning",
+  "Argumentation",
+  "Human-computer Interaction",
+  "Teacher Professional Development ",
   "Computational Thinking",
   "Learning Experience Design",
   "Digital Learning Environments",
+  "Learning Sciences",
   "Productive Failure",
   "Learning Analytics",
   "Instructional Design",
