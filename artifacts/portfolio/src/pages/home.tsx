@@ -163,41 +163,54 @@ export function Home() {
               <motion.p variants={item} className="text-lg text-foreground/80 mb-10 leading-relaxed">
                 Exploring the intersection of artificial intelligence, computational thinking, and human learning. I design digital environments that foster curiosity and turn productive failure into lasting insight.
               </motion.p>
-              <motion.div variants={item} className="flex flex-wrap gap-4 items-center">
-                <Button asChild size="lg" className="rounded-full px-8 shadow-sm">
-                  <Link href="/research">View Research</Link>
-                </Button>
-                <Button variant="outline" size="icon" className="rounded-full shadow-sm hover:text-primary hover:border-primary/30 transition-colors" asChild>
-                  <a href="https://www.linkedin.com/in/maryambabaee" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin className="h-5 w-5" /></a>
-                </Button>
-                <Button variant="outline" size="icon" className="rounded-full shadow-sm hover:text-primary hover:border-primary/30 transition-colors" asChild>
-                  <a href="https://scholar.google.com/citations?user=NlU4lCcAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><GraduationCap className="h-5 w-5" /></a>
-                </Button>
-                <Button variant="outline" size="icon" className="rounded-full shadow-sm hover:text-primary hover:border-primary/30 transition-colors" asChild>
-                  <a href="https://github.com/marmariiin-lang" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><Github className="h-5 w-5" /></a>
-                <Button variant="ghost" className="rounded-full text-muted-foreground hover:text-foreground" asChild>
-                <Link href="/cv">
-                <Download className="mr-2 h-4 w-4" /> MY CV
-                </Link>
-                </Button>
-              </motion.div>
-              </motion.div>
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="relative mx-auto md:ml-auto w-full max-w-md aspect-[3/4]"
-            >
-              <div className="absolute inset-0 bg-primary/10 rounded-2xl rotate-3 transform origin-bottom-left transition-transform hover:rotate-6 duration-500" />
-              <img
-                src="/maryam.jpg"
-                alt="Maryam Babaee"
-                className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-xl grayscale-[20%] sepia-[10%] hover:grayscale-0 transition-all duration-500"
-              />
-            </motion.div>
-          </div>
-        </div>
-      </section>
+            
+<motion.div variants={item} className="flex flex-wrap gap-4 items-center">
+  <Button asChild size="lg" className="rounded-full px-8 shadow-sm">
+    <Link href="/research">View Research</Link>
+  </Button>
 
+  <Button variant="outline" size="icon" className="rounded-full shadow-sm hover:text-primary hover:border-primary/30 transition-colors" asChild>
+    <a href="https://www.linkedin.com/in/maryambabaee" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <Linkedin className="h-5 w-5" />
+    </a>
+  </Button>
+
+  <Button variant="outline" size="icon" className="rounded-full shadow-sm hover:text-primary hover:border-primary/30 transition-colors" asChild>
+    <a href="https://scholar.google.com/citations?user=NlU4lCcAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+      <GraduationCap className="h-5 w-5" />
+    </a>
+  </Button>
+
+  <Button variant="outline" size="icon" className="rounded-full shadow-sm hover:text-primary hover:border-primary/30 transition-colors" asChild>
+    <a href="https://github.com/marmariiin-lang" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+      <Github className="h-5 w-5" />
+    </a>
+  </Button>
+
+  <Button variant="ghost" className="rounded-full text-muted-foreground hover:text-foreground" asChild>
+    <Link href="/cv">
+      <Download className="mr-2 h-4 w-4" /> MY CV
+    </Link>
+  </Button>
+</motion.div>
+</motion.div>
+
+<motion.div
+  initial={{ opacity: 0, scale: 0.95 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+  className="relative mx-auto md:ml-auto w-full max-w-md aspect-[3/4]"
+>
+  <div className="absolute inset-0 bg-primary/10 rounded-2xl rotate-3 transform origin-bottom-left transition-transform hover:rotate-6 duration-500" />
+  <img
+    src="/maryam.jpg"
+    alt="Maryam Babaee"
+    className="absolute inset-0 w-full h-full object-cover rounded-2xl shadow-xl grayscale-[20%] sepia-[10%] hover:grayscale-0 transition-all duration-500"
+  />
+</motion.div>
+</div>
+</div>
+</section>
       {/* ── Research Interests ── */}
       <section className="border-y border-border/40 bg-muted/20 py-16">
         <div className="container mx-auto px-6 max-w-5xl">
