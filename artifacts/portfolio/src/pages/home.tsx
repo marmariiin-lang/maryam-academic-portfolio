@@ -165,9 +165,12 @@ export function Home() {
               </motion.p>
             
 <motion.div variants={item} className="flex flex-wrap gap-4 items-center">
-  <Button asChild size="lg" className="rounded-full px-8 shadow-sm">
-    <Link href="/research">View Research</Link>
-  </Button>
+<Button asChild size="lg" className="rounded-full px-8 shadow-sm">
+  <Link href="/cv">
+    <FileText className="mr-2 h-4 w-4" />
+    View My CV
+  </Link>
+</Button>
 
   <Button variant="outline" size="icon" className="rounded-full shadow-sm hover:text-primary hover:border-primary/30 transition-colors" asChild>
     <a href="https://www.linkedin.com/in/maryambabaee" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
@@ -187,11 +190,6 @@ export function Home() {
     </a>
   </Button>
 
-  <Button variant="ghost" className="rounded-full text-muted-foreground hover:text-foreground" asChild>
-    <Link href="/cv">
-      <Download className="mr-2 h-4 w-4" /> MY CV
-    </Link>
-  </Button>
 </motion.div>
 </motion.div>
 
