@@ -8,7 +8,7 @@ const links = [
   { href: "/research", label: "Research", sectionId: "section-research" },
   { href: "/projects", label: "Projects", sectionId: "section-projects" },
   { href: "/teaching", label: "Teaching & Design", sectionId: "section-teaching" },
-  { href: "/notes", label: "Notes", sectionId: null },
+  { href: "/weblog", label: "Weblog", sectionId: null },
   { href: "/cv", label: "CV", sectionId: null },
   { href: "/contact", label: "Contact", sectionId: null },
 ];
