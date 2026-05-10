@@ -46,7 +46,8 @@ const researchInterests = [
 
 const publications = [
   {
-    citation: "Rahimi, S., <strong>Babaee, M.</strong>, Esmaeiligoujar, S., & Dede, C. (2026). Generative Artificial Intelligence and Creativity in K–12 Education: A Systematic Scoping Review.",
+     
+    citation: ( <> "Rahimi, S., <strong>Babaee, M.</strong>, Esmaeiligoujar, S., & Dede, C. (2026). Generative Artificial Intelligence and Creativity in K–12 Education: A Systematic Scoping Review." </> ),
     venue: "The Oxford Handbook of Human Creativity and Generative Artificial Intelligence in Education",
     link: "https://osf.io/download/npd9f/",
   },
