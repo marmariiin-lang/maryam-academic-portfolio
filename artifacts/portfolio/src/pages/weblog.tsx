@@ -41,7 +41,7 @@ const posts = [
   }
 ];
 
-export function Notes() {
+export function Weblog() {
   return (
     <div className="pt-24 pb-32">
       <div className="container mx-auto px-6 max-w-4xl">
@@ -51,7 +51,7 @@ export function Notes() {
           transition={{ duration: 0.5 }}
           className="mb-20 text-center"
         >
-          <h1 className="text-5xl font-serif mb-6 text-foreground">Notes & Writing</h1>
+          <h1 className="text-5xl font-serif mb-6 text-foreground">Weblog & Writing</h1>
           <p className="text-xl text-muted-foreground font-light max-w-2xl mx-auto leading-relaxed">
             Informal reflections on learning sciences, design practice, literature, and the intersections between them.
           </p>
