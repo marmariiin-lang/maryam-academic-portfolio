@@ -177,7 +177,7 @@ export function Home() {
                   <a href="https://github.com/marmariiin-lang" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><Github className="h-5 w-5" /></a>
                 </Button>
                 <Button variant="ghost" className="rounded-full text-muted-foreground hover:text-foreground" asChild>
-                  <a href="#"><Download className="mr-2 h-4 w-4" /> Download CV</a>
+                  <a href="/cv"><Download className="mr-2 h-4 w-4" /> MY CV</a>
                 </Button>
               </motion.div>
             </motion.div>
@@ -210,7 +210,6 @@ export function Home() {
             className="mb-10"
           >
             <h2 className="text-2xl font-serif text-foreground mb-2">Research Interests</h2>
-            <p className="text-muted-foreground text-sm">The themes that run through my work across disciplines.</p>
           </motion.div>
           <motion.div
             variants={container}
@@ -244,7 +243,6 @@ export function Home() {
           >
             <div>
               <h2 className="text-3xl font-serif text-foreground mb-2">Selected Publications</h2>
-              <p className="text-muted-foreground">Peer-reviewed work from conferences and journals.</p>
             </div>
             <div className="flex items-center gap-4 shrink-0">
               <a
