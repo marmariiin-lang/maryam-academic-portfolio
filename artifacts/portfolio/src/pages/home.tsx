@@ -464,34 +464,6 @@ export function Home() {
         </div>
       </section>
 
-      {/* ── Full CV ── */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-6 max-w-5xl">
-          <motion.div
-            variants={fadeUp}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-            className="rounded-2xl border border-border bg-card p-12 md:p-16 flex flex-col md:flex-row items-center justify-between gap-10"
-          >
-            <div className="flex flex-col sm:flex-row gap-4 shrink-0">
-              <Button asChild size="lg" className="rounded-full px-8">
-                <Link href="/cv">
-                  <FileText className="mr-2 h-4 w-4" />
-                  View Full CV
-                </Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="rounded-full px-8">
-                <a href="#" download>
-                  <Download className="mr-2 h-4 w-4" />
-                  Download PDF
-                </a>
-              </Button>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
     </div>
   );
 }
