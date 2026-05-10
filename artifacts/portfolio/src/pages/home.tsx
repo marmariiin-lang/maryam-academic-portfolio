@@ -138,7 +138,7 @@ export function Home() {
                   <a href="https://scholar.google.com/citations?user=NlU4lCcAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><GraduationCap className="h-5 w-5" /></a>
                 </Button>
                 <Button variant="outline" size="icon" className="rounded-full shadow-sm hover:text-primary hover:border-primary/30 transition-colors" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><Github className="h-5 w-5" /></a>
+                  <a href="https://github.com/marmariiin-lang" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><Github className="h-5 w-5" /></a>
                 </Button>
                 <Button variant="ghost" className="rounded-full text-muted-foreground hover:text-foreground" asChild>
                   <a href="#"><Download className="mr-2 h-4 w-4" /> Download CV</a>
