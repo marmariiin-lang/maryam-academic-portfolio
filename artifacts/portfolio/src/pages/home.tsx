@@ -132,7 +132,7 @@ export function Home() {
                   <Link href="/research">View Research</Link>
                 </Button>
                 <Button variant="outline" size="icon" className="rounded-full shadow-sm hover:text-primary hover:border-primary/30 transition-colors" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin className="h-5 w-5" /></a>
+                  <a href="www.linkedin.com/in/maryambabaee" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin className="h-5 w-5" /></a>
                 </Button>
                 <Button variant="outline" size="icon" className="rounded-full shadow-sm hover:text-primary hover:border-primary/30 transition-colors" asChild>
                   <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><GraduationCap className="h-5 w-5" /></a>
