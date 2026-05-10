@@ -10,7 +10,7 @@ import { Home } from "@/pages/home";
 import { Research } from "@/pages/research";
 import { Projects } from "@/pages/projects";
 import { Teaching } from "@/pages/teaching";
-import { Weblog } from "@/pages/notes";
+import { Weblog } from "@/pages/weblog";
 import { CV } from "@/pages/cv";
 import { Contact } from "@/pages/contact";
 import NotFound from "@/pages/not-found";
@@ -24,7 +24,7 @@ function Router() {
       <Route path="/research" component={Research} />
       <Route path="/projects" component={Projects} />
       <Route path="/teaching" component={Teaching} />
-      <Route path="/notes" component={Weblog} />
+      <Route path="/weblog" component={Weblog} />
       <Route path="/cv" component={CV} />
       <Route path="/contact" component={Contact} />
       <Route component={NotFound} />
