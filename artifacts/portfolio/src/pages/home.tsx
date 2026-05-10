@@ -46,46 +46,43 @@ const researchInterests = [
 
 const publications = [
   {
-     
-    citation: ( <> Rahimi, S., <strong>Babaee, M.</strong>, Esmaeiligoujar, S., & Dede, C. (2026). Generative Artificial Intelligence and Creativity in K–12 Education: A Systematic Scoping Review. </> ),
+    citation: "Rahimi, S., <strong>Babaee, M.</strong>, Esmaeiligoujar, S., & Dede, C. (2026). Generative Artificial Intelligence and Creativity in K–12 Education: A Systematic Scoping Review.",
     venue: "The Oxford Handbook of Human Creativity and Generative Artificial Intelligence in Education",
     link: "https://osf.io/download/npd9f/",
   },
-   {
-    citation: ( <> Rahimi, S., Dede, C., Esmaeiligoujar, S., & <strong>Babaee, M.</strong> (2025). Augmenting human creativity with responsible and ethical use of generative AI. </> ),
-    venue: "Generative Artificial Intelligence and Creativity: Precautions, perspectives, and possibilities, 87.",
-    link: "https://books.google.com/books?hl=en&lr=&id=KERrEQAAQBAJ&oi=fnd&pg=PA87&dq=%09Augmenting+human+creativity+with+responsible+and+ethical+use+of+generative+AI&ots=p0TI1Got_u&sig=XKlnlHCr6gt5V3jZpDKtDEcy72s#v=onepage&q=Augmenting%20human%20creativity%20with%20responsible%20and%20ethical%20use%20of%20generative%20AI&f=false", 
+  {
+    citation: "Rahimi, S., Dede, C., Esmaeiligoujar, S., & <strong>Babaee, M.</strong> (2025). Augmenting human creativity with responsible and ethical use of generative AI.",
+    venue: "Generative Artificial Intelligence and Creativity: Precautions, Perspectives, and Possibilities, 87.",
+    link: "https://books.google.com/books?hl=en&lr=&id=KERrEQAAQBAJ&oi=fnd&pg=PA87&dq=%09Augmenting+human+creativity+with+responsible+and+ethical+use+of+generative+AI&ots=p0TI1Got_u&sig=XKlnlHCr6gt5V3jZpDKtDEcy72s#v=onepage&q=Augmenting%20human%20creativity%20with%20responsible%20and%20ethical%20use%20of%20generative%20AI&f=false",
   },
   {
-    citation: ( <> Rhaimi, S., Ercan, D., Gao, R., Esmaeiligoujar, S., <strong>Babaee, M.</strong>, Li, H., ... & Botelho, A. (2025, July).ProductiveMath: A Generative-AI-Powered App to Support Productive Failure Teaching. ProductiveMath: A Generative-AI-Powered App to Support Productive Failure Teaching. </> ),
-    venue: "In International Conference on Artificial Intelligence in Education (pp. 344-351). Cham: Springer Nature Switzerland.",
-    link: "https://www.researchgate.net/profile/Hongming-Li-10/publication/391399715_ProductiveMath_A_Generative-AI-Powered_App_to_Support_Productive_Failure_Teaching/links/6880814eb3294610e9b92e09/ProductiveMath-A-Generative-AI-Powered-App-to-Support-Productive-Failure-Teaching.pdf", 
+    citation: "Rahimi, S., Ercan, D., Gao, R., Esmaeiligoujar, S., <strong>Babaee, M.</strong>, Li, H., ... & Botelho, A. (2025, July). ProductiveMath: A Generative-AI-Powered App to Support Productive Failure Teaching.",
+    venue: "In International Conference on Artificial Intelligence in Education (pp. 344–351). Springer Nature Switzerland.",
+    link: "https://www.researchgate.net/profile/Hongming-Li-10/publication/391399715_ProductiveMath_A_Generative-AI-Powered_App_to_Support_Productive_Failure_Teaching/links/6880814eb3294610e9b92e09/ProductiveMath-A-Generative-AI-Powered-App-to-Support-Productive-Failure-Teaching.pdf",
   },
-  
   {
-    citation: ( <>  Khoshgoftar, Z., <strong>Babaee, M.</strong>, Rouzbahani, A. K., & Kalantarion, M. (2025). Educational data mining in medical education: A five-level approach. </> ),
+    citation: "Khoshgoftar, Z., <strong>Babaee, M.</strong>, Rouzbahani, A. K., & Kalantarion, M. (2025). Educational data mining in medical education: A five-level approach.",
     venue: "Journal of Education and Health Promotion, 14(1), 24.",
     link: "https://journals.lww.com/jehp/fulltext/2025/01310/educational_data_mining_in_medical_education__a.24.aspx",
   },
-    {
-    citation: ( <> <strong>Babaee, M.</strong>, Rahimi, S., & Esmaeiligoujar, S. (2024). Fostering K-12 Students’ Computational Thinking Skills Using Collaborative Technology-rich Learning Environments: A Systematic Review. </> ),
-    venue: "In Proceedings of the 18th International Conference of the Learning Sciences-ICLS 2024, pp. 786-792. International Society of the Learning Sciences.",
+  {
+    citation: "<strong>Babaee, M.</strong>, Rahimi, S., & Esmaeiligoujar, S. (2024). Fostering K–12 Students’ Computational Thinking Skills Using Collaborative Technology-rich Learning Environments: A Systematic Review.",
+    venue: "In Proceedings of the 18th International Conference of the Learning Sciences, ICLS 2024 (pp. 786–792). International Society of the Learning Sciences.",
     link: "https://repository.isls.org/bitstream/1/11170/1/ICLS2024_786-792.pdf",
   },
   {
-    citation: ( <>  Noroozi, O., Banihashem, S. K., Taghizadeh Kerman, N., Parvaneh Akhteh Khaneh, <strong>Babaee, M.</strong>, M., Ashrafi, H., & Biemans, H. J. (2023). Gender differences in students’ argumentative essay writing, peer review performance and uptake in online learning environments. </> ),
-    venue: "Interactive Learning Environments, 31(10), 6302-6316.",
+    citation: "Noroozi, O., Banihashem, S. K., Taghizadeh Kerman, N., Parvaneh Akhteh Khaneh, M., <strong>Babaee, M.</strong>, Ashrafi, H., & Biemans, H. J. (2023). Gender differences in students’ argumentative essay writing, peer review performance and uptake in online learning environments.",
+    venue: "Interactive Learning Environments, 31(10), 6302–6316.",
     link: "https://www.tandfonline.com/doi/full/10.1080/10494820.2022.2034887",
   },
- 
-   {
-    citation: ( <>  Ranjbaran, F., <strong>Babaee, M.</strong>, Parvaneh Akhteh Khaneh, M., Gohari, M., Daneshvar Ghorbani, B., Taghizadeh Kerman, N., ... & Noroozi, O. (2023). Students' Argumentation Performance in Online Learning Environments: Bridging Culture and Gender. </> ),
-    venue: "International Journal of Technology in Education 6, no. 3 (2023): 434-454.",
-    link: "https://journals.lww.com/jehp/fulltext/2025/01310/educational_data_mining_in_medical_education__a.24.aspx",
+  {
+    citation: "Ranjbaran, F., <strong>Babaee, M.</strong>, Parvaneh Akhteh Khaneh, M., Gohari, M., Daneshvar Ghorbani, B., Taghizadeh Kerman, N., ... & Noroozi, O. (2023). Students' argumentation performance in online learning environments: Bridging culture and gender.",
+    venue: "International Journal of Technology in Education, 6(3), 434–454.",
+    link: "https://ijte.net/index.php/ijte/article/view/444",
   },
-   {
-    citation: ( <> Rahimi, S., Shute, V., Khodabandelou, R., Kuba, R., <strong>Babaee, M.</strong>, & Esmaeiligoujar, S. (2023). Stealth assessment: A systematic review of the literature. </> ),
-    venue: "In Proceedings of the 17th International Conference of the Learning Sciences-ICLS 2023, pp. 1977-1978. International Society of the Learning Sciences.",
+  {
+    citation: "Rahimi, S., Shute, V., Khodabandelou, R., Kuba, R., <strong>Babaee, M.</strong>, & Esmaeiligoujar, S. (2023). Stealth assessment: A systematic review of the literature.",
+    venue: "In Proceedings of the 17th International Conference of the Learning Sciences, ICLS 2023 (pp. 1977–1978). International Society of the Learning Sciences.",
     link: "https://repository.isls.org/bitstream/1/10118/1/ICLS2023_1977-1978.pdf",
   },
 ];
@@ -277,7 +274,10 @@ export function Home() {
                 className="group flex gap-5 items-start pl-5 border-l-2 border-border hover:border-primary transition-colors duration-300"
               >
                 <div className="flex-1">
-                  <p className="text-foreground/90 leading-relaxed font-serif mb-2">{pub.citation}</p>
+<p
+  className="text-foreground/90 leading-relaxed font-serif mb-2"
+  dangerouslySetInnerHTML={{ __html: pub.citation }}
+/>         
                   <span className="inline-block text-xs font-semibold tracking-wider text-primary uppercase">{pub.venue}</span>
                 </div>
                 <a
