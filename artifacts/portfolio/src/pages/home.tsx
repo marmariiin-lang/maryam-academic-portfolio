@@ -175,10 +175,11 @@ export function Home() {
                 </Button>
                 <Button variant="outline" size="icon" className="rounded-full shadow-sm hover:text-primary hover:border-primary/30 transition-colors" asChild>
                   <a href="https://github.com/marmariiin-lang" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><Github className="h-5 w-5" /></a>
-                </Button>
                 <Button variant="ghost" className="rounded-full text-muted-foreground hover:text-foreground" asChild>
-                  <a href="/cv"><Download className="mr-2 h-4 w-4" /> MY CV</a>
-                </Button>
+  <Link href="/cv">
+    <Download className="mr-2 h-4 w-4" /> MY CV
+  </Link>
+</Button>
               </motion.div>
             </motion.div>
 
