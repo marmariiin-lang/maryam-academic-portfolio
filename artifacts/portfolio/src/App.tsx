@@ -10,7 +10,7 @@ import { Home } from "@/pages/home";
 import { Research } from "@/pages/research";
 import { Projects } from "@/pages/projects";
 import { Teaching } from "@/pages/teaching";
-import { Notes } from "@/pages/notes";
+import { Weblog } from "@/pages/notes";
 import { CV } from "@/pages/cv";
 import { Contact } from "@/pages/contact";
 import NotFound from "@/pages/not-found";
