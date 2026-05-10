@@ -47,12 +47,12 @@ const researchInterests = [
 const publications = [
   {
      
-    citation: ( <> "Rahimi, S., <strong>Babaee, M.</strong>, Esmaeiligoujar, S., & Dede, C. (2026). Generative Artificial Intelligence and Creativity in K–12 Education: A Systematic Scoping Review." </> ),
+    citation: ( <> Rahimi, S., <strong>Babaee, M.</strong>, Esmaeiligoujar, S., & Dede, C. (2026). Generative Artificial Intelligence and Creativity in K–12 Education: A Systematic Scoping Review. </> ),
     venue: "The Oxford Handbook of Human Creativity and Generative Artificial Intelligence in Education",
     link: "https://osf.io/download/npd9f/",
   },
    {
-    citation: ( <> "Rahimi, S., Dede, C., Esmaeiligoujar, S., & <strong>Babaee, M.</strong> (2025). Augmenting human creativity with responsible and ethical use of generative AI." </> ),
+    citation: ( <> Rahimi, S., Dede, C., Esmaeiligoujar, S., & <strong>Babaee, M.</strong> (2025). Augmenting human creativity with responsible and ethical use of generative AI. </> ),
     venue: "Generative Artificial Intelligence and Creativity: Precautions, perspectives, and possibilities, 87.",
     link: "https://books.google.com/books?hl=en&lr=&id=KERrEQAAQBAJ&oi=fnd&pg=PA87&dq=%09Augmenting+human+creativity+with+responsible+and+ethical+use+of+generative+AI&ots=p0TI1Got_u&sig=XKlnlHCr6gt5V3jZpDKtDEcy72s#v=onepage&q=Augmenting%20human%20creativity%20with%20responsible%20and%20ethical%20use%20of%20generative%20AI&f=false", 
   },
@@ -69,7 +69,7 @@ const publications = [
   },
     {
     citation: ( <> <strong>Babaee, M.</strong>, Rahimi, S., & Esmaeiligoujar, S. (2024). Fostering K-12 Students’ Computational Thinking Skills Using Collaborative Technology-rich Learning Environments: A Systematic Review. </> ),
-    venue: "n Proceedings of the 18th International Conference of the Learning Sciences-ICLS 2024, pp. 786-792. International Society of the Learning Sciences.",
+    venue: "In Proceedings of the 18th International Conference of the Learning Sciences-ICLS 2024, pp. 786-792. International Society of the Learning Sciences.",
     link: "https://repository.isls.org/bitstream/1/11170/1/ICLS2024_786-792.pdf",
   },
   {
