@@ -474,12 +474,6 @@ export function Home() {
             viewport={{ once: true }}
             className="rounded-2xl border border-border bg-card p-12 md:p-16 flex flex-col md:flex-row items-center justify-between gap-10"
           >
-            <div className="text-center md:text-left">
-              <h2 className="text-3xl font-serif text-foreground mb-3">Curriculum Vitae</h2>
-              <p className="text-muted-foreground max-w-md leading-relaxed">
-                Full academic record including education, research experience, publications, conference presentations, teaching, and awards.
-              </p>
-            </div>
             <div className="flex flex-col sm:flex-row gap-4 shrink-0">
               <Button asChild size="lg" className="rounded-full px-8">
                 <Link href="/cv">
