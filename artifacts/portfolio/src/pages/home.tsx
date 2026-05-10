@@ -212,7 +212,7 @@ export function Home() {
             </div>
             <div className="flex items-center gap-4 shrink-0">
               <a
-                href="#"
+                href="https://scholar.google.com/citations?user=NlU4lCcAAAAJ&hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors border border-border rounded-full px-4 py-2 hover:border-primary"
