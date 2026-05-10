@@ -277,7 +277,7 @@ export function Home() {
 <p
   className="text-foreground/90 leading-relaxed font-serif mb-2"
   dangerouslySetInnerHTML={{ __html: pub.citation }}
-/>         
+/>        
                   <span className="inline-block text-xs font-semibold tracking-wider text-primary uppercase">{pub.venue}</span>
                 </div>
                 <a
