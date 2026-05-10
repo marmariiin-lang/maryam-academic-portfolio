@@ -54,7 +54,7 @@ const publications = [
    {
     citation: ( <> "Rahimi, S., Dede, C., Esmaeiligoujar, S., & <strong>Babaee, M.</strong> (2025). Augmenting human creativity with responsible and ethical use of generative AI." </> ),
     venue: "Generative Artificial Intelligence and Creativity: Precautions, perspectives, and possibilities, 87.",
-    link: "#", 
+    link: "https://books.google.com/books?hl=en&lr=&id=KERrEQAAQBAJ&oi=fnd&pg=PA87&dq=%09Augmenting+human+creativity+with+responsible+and+ethical+use+of+generative+AI&ots=p0TI1Got_u&sig=XKlnlHCr6gt5V3jZpDKtDEcy72s#v=onepage&q=Augmenting%20human%20creativity%20with%20responsible%20and%20ethical%20use%20of%20generative%20AI&f=false", 
   },
   {
     citation: ( <> "Rhaimi, S., Ercan, D., Gao, R., Esmaeiligoujar, S., <strong>Babaee, M.</strong>, Li, H., ... & Botelho, A. (2025, July).ProductiveMath: A Generative-AI-Powered App to Support Productive Failure Teaching. ProductiveMath: A Generative-AI-Powered App to Support Productive Failure Teaching. " </> ),
